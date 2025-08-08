@@ -54,7 +54,7 @@ const ContactDetails = () => {
         <div className="bg-purple-500 p-2 rounded-full">
           <LocationIcon className="w-6 h-6 text-white" />
         </div>
-        <p className="ml-4 text-gray-800">A/29 Arbuda nagar-2 link road, Bharuch, Gujarat</p>
+        <p className="ml-4 text-gray-800">A/29 Arbuda nagar-2,link road, Bharuch, Gujarat</p>
       </div>
     </div>
   );

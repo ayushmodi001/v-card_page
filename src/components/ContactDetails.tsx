@@ -1,7 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { PhoneIcon, MailIcon, LocationIcon, CopyIcon, CheckIcon } from "./icons";
+import {
+  PhoneIcon,
+  MailIcon,
+  LocationIcon,
+  CopyIcon,
+  CheckIcon,
+  GitHubIcon,
+  LinkedInIcon,
+} from "./icons";
 
 const ContactDetails = () => {
   const [copied, setCopied] = useState<string | null>(null);
@@ -55,6 +63,32 @@ const ContactDetails = () => {
           <LocationIcon className="w-6 h-6 text-white" />
         </div>
         <p className="ml-4 text-gray-800">A/29 Arbuda nagar-2,link road, Bharuch, Gujarat</p>
+      </div>
+      <div className="flex items-center">
+        <div className="bg-gray-800 p-2 rounded-full">
+          <GitHubIcon className="w-6 h-6 text-white" />
+        </div>
+        <a
+          href="https://github.com/ayushmodi001"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-4 text-gray-800"
+        >
+          GitHub
+        </a>
+      </div>
+      <div className="flex items-center">
+        <div className="bg-blue-700 p-2 rounded-full">
+          <LinkedInIcon className="w-6 h-6 text-white" />
+        </div>
+        <a
+          href="https://linkedin.com/in/ayushmodi47"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-4 text-gray-800"
+        >
+          LinkedIn
+        </a>
       </div>
     </div>
   );
